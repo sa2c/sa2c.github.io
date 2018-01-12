@@ -6,10 +6,6 @@ body {
   font-family: Futura, Helvetica, HelveticaNeue, Arial, sans-serif;
   margin-bottom: 100px;
   background-color: #ffffff;
-  background-image: url(/images/wave.png);
-  background-repeat: no-repeat;
-  background-position: 0px bottom;
-  background-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,4 +46,32 @@ table {
 .scriptlink {
   cursor: pointer;
   color: #005B99;
+}
+
+ul.footeritems {
+    display: table;
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    bottom: 6px;
+}
+
+li.footeritem {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(/images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: 0px top;
+    background-size: 100%;
+    vertical-align: text-bottom;
 }
