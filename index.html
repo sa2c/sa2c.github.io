@@ -1,34 +1,59 @@
+<!doctype html>
 <html>
   <head>
-    <title>SA2C - Swansea Academy of Advanced Computing - Academi Uwch Gyfrifiadureg Abertawe</title>
-    <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <title>Swansea Academy of Advanced Computing</title>
+    <style>
+      a {
+          text-decoration: none;
+      }
+      p {
+          font-family: "Futura", sans-serif;
+          font-size: 18pt;
+          text-align: center;
+      }
+      img.logo {
+          width: 300px;
+      }
+      html {
+          height: 100%;
+      }
+      body {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+      }
+      div.content {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+    </style>
   </head>
   <body>
-    <p class="title"><img src="images/logo.png" alt="SA2C logo" width="300px" /><br />
-      Swansea Academy of Advanced Computing<br />
-      Academi Uwch Gyfrifiadureg Abertawe
-    </p>
-    <ul>
-      <li><a href="about.html">About SA2C - Am SA2C</a></li>
-      <li><a href="techchat">Tech Chat schedule -
-	  Amserledd Trafod Technoleg</a></li>
-      <li><a href="clinic">Drop-in Code Clinic -
-          Clinig Côd Galw Heibio</a></li>
-      <li><a href="https://mailman.swan.ac.uk/mailman/listinfo/sa2c-users">
-	  Mailing list - Rhestr Bostio</a></li>
-      <li><a href="howtos/index.html">How To Instructions</a></li>
-      <li><a href="https://cs2-sa2c-pi.swan.ac.uk/dashboard">Dashboard</a> 
-          (login required)</li>
-    </ul>
-    <!--footer-->
-    <div class="footer">
-      <ul class="footeritems">
-	<li class="footeritem"><img src="images/scw.svg" height="70px" /></li>
-	<li class="footeritem"><img src="images/swansea.svg" height="70px" /></li>
-	<li class="footeritem"><img src="images/wefo.svg" height="60px" /></li>
-      </ul>
+    <div class="content">
+      <div class="inner">
+        <p>
+          <img src="images/logo.png" class="logo" alt="SA2C logo" width="300px">
+        </p>    <a href="/sunbird2/">
+          <p>
+            The Swansea Academy of Advanced Computing is responsible for the SUNBIRD2 high-performance computing system.
+          </p>
+          <p><img src="images/sunbird2.svg" class="logo" alt="SUNBIRD2" title="SUNBIRD2 logo"></p>
+          <p>
+            For more information about this,
+            please click here.
+          </p>
+        </a>
+        <p style="margin-top: 100px;">
+          <a href="index_old.html">
+            For older information about services previously offered by SA2C,
+            please see the legacy index page.
+          </a>
+        </p>
+      </div>
     </div>
   </body>
 </html>
-
